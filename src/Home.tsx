@@ -19,6 +19,8 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
+import gif from './g.gif';
+
 const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
@@ -167,6 +169,11 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+      <h1>Thug Apes</h1>
+      <p>99 ThugApes swinging through the Metaverse to support rug victims through our Anti-Rug Relief Fund</p>
+
+      <img src={gif} alt="gif"/>
+
       {wallet && (
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}

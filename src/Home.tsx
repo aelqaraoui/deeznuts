@@ -169,7 +169,7 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      <h1>Thug Apes</h1>
+      <h1>Thug Apes </h1>
       <p>99 ThugApes swinging through the Metaverse to support rug victims through our Anti-Rug Relief Fund</p>
 
       <img src={gif} alt="gif"/>

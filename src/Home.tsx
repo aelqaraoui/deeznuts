@@ -169,10 +169,8 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      <h1>Thug Apes </h1>
-      <p>99 ThugApes swinging through the Metaverse to support rug victims through our Anti-Rug Relief Fund</p>
-
-      <img src={gif} alt="gif"/>
+      <h1>DeezNuts</h1>
+      <p>333 secret coded NFT's across the solana blockchain, what do they mean? Mint one to find out. Some lucky holders will reveal the NFT to a massive Solana payout, only 5 solana backgrounds exist and we are rewarding minters of those 5 Sol each!</p>
 
       {wallet && (
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>

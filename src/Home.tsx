@@ -19,8 +19,6 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
-import gif from './g.gif';
-
 const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
@@ -170,8 +168,8 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <h1>DeezNuts</h1>
-      <p>333 secret coded NFT's across the solana blockchain, what do they mean? Mint one to find out. Some lucky holders will reveal the NFT to a massive Solana payout, only 5 solana backgrounds exist and we are rewarding minters of those 5 Sol each!</p>
-
+      <p>333 secret coded NFT's across the solana blockchain.<br/>What do they mean? Mint one to find out. <br/>Some lucky holders will reveal the NFT to a massive Solana payout. <br/>Only 5 solana backgrounds exist and we are rewarding minters of those 5 Sol each!</p>
+      <br/><br/><br/>
       {wallet && (
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
